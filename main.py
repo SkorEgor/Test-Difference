@@ -113,6 +113,7 @@ if __name__ == '__main__':
 
     print(statistics_data.to_string())
 
+    # Запись в exel таблицу
     with pd.ExcelWriter('out_statistics/statistics_data.xlsx', mode='w') as writer:
         statistics_data.to_excel(writer, sheet_name='sheetName')
         header = statistics_data.columns.values.tolist()
