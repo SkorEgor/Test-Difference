@@ -75,7 +75,7 @@ if __name__ == '__main__':
     # (2.2) Запись в класс обработки данных
     data_signals.data["with_gas"] = pd.Series(gamma)
 
-    for threshold in range(10, 100, 1):
+    for threshold in range(25, 101, 25):
         # (3) ОБРАБОТКА
         # ОБРАБОТКА
         data_signals.all_processing(
@@ -114,7 +114,7 @@ if __name__ == '__main__':
     print(statistics_data.to_string())
 
     # Запись в exel таблицу
-    with pd.ExcelWriter('out_statistics/statistics_data.xlsx', mode='w') as writer:
+    with pd.ExcelWriter('out_statistics/statistics_data1.xlsx', mode='w') as writer:
         statistics_data.to_excel(writer, sheet_name='sheetName')
         header = statistics_data.columns.values.tolist()
         for index in range(0, len(header)):
