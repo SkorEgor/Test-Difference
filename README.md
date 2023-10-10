@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" height=24>
 </div>
 
-<h1 align="center">Detector Threshold / Детектор по пороговому значению</h1>
+<h1 align="center"> Test-Difference / Тестироващик программы Detector Threshold</h1>
 
 Программа для тестирования и сбора статистики одного из методов дипломной работы бакалавриата, на тему *"Развитие метода автоматизации обработки спектроскопических данных, полученных с использованием спектрометра с фазовой манипуляцией воздействующего на газ излучения"*
 
