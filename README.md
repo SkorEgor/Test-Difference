@@ -26,7 +26,7 @@
 
 <h2 align="left"> 1. Описание задачи и демонстрация работы </h2>
 
-Для оценки работы приложения [Detector-Threshold](https://github.com/SkorEgor/Detector-Threshold) было разработано специальное программное обеспечение для проведения тестов в автоматическом режиме.
+Для оценки работы приложения [Test-Difference](https://github.com/SkorEgor/Detector-Threshold) было разработано специальное программное обеспечение для проведения тестов в автоматическом режиме.
 
 - Программа [Detector-Threshold](https://github.com/SkorEgor/Detector-Threshold) находит точки линий поглощения с помощью класса [DataAndProcessing](https://github.com/SkorEgor/Detector-Threshold/blob/master/data_and_processing.py), по данным со спектрометра
 
